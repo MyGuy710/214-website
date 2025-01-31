@@ -1,6 +1,33 @@
-title: My GitHub Pages Site
-description: >- # this means to ignore newlines until "baseurl:"
-  My first GitHub Pages site using Jekyll.
-theme: jekyll-theme-minimal
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://itjuandiegochavez.com/" # the base hostname & protocol for your site
+# Site settings
+title: My Awesome Site
+description: >
+  Welcome to my awesome site powered by GitHub Pages and Jekyll!
+theme: jekyll-theme-hacker  # Use the "hacker" theme
+
+# URL settings
+url: "https://myguy710.github.io/your-repo"  # Replace with your actual URL
+baseurl: ""  # Leave empty unless your site is in a subdirectory
+
+# Markdown configuration
+markdown: kramdown
+highlighter: rouge
+
+# Build settings
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Other optional settings
+# Uncomment and modify these lines if needed
+# author: Your Name
+# email: your-email@example.com
+# twitter_username: your-twitter-handle
+# github_username: your-github-username
+
+# Exclude these files and directories from the site build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - node_modules/
+  - vendor/
